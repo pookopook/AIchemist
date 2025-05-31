@@ -32,7 +32,7 @@ conda env list
 새로 생성된 환경이 보이면 다음 명령어로 활성화할 수 있습니다.
 ``` sh
 # conda activate {환경이름}
-conda activate bibiml
+conda activate py311_ml
 ```
 
 # 주피터 기본 폴더 설정하기
@@ -57,7 +57,7 @@ config 파일에 다음 구문을 추가합니다.
 먼저 폴더를 먼저 만들고, 그 경로를 복사합니다. 
 ``` yml
 # c.ServerApp.root_dir = ''  <-- 이 부분을 찾아서 주석을 해제하고
-c.ServerApp.root_dir = r'D:\jupyter\bibiml' #예시 경로입니다.
+c.ServerApp.root_dir = r'D:\jupyter' #예시 경로입니다.
 ```
 
 주피터 랩을 재시작하고 기본 경로를 확인해보세요.
