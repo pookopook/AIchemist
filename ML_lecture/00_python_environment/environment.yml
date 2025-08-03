@@ -17,6 +17,20 @@ dependencies:
   - lightgbm
   - catboost
   - imbalanced-learn
+  - pyod
+  - pycaret
+  - mlxtend
+  - eli5
+  - shap
+  - lime
+  - yellowbrick
+  - statsmodels
+  - pmdarima
+  - tsfresh
+  - pmdarima
+  - darts
+
+
 
   # 시각화 관련 라이브러리
   - matplotlib
@@ -24,15 +38,38 @@ dependencies:
   - plotly
   - dash
   - pyvis
+  - graphviz
+ 
+ # 지리 관련 라이브러리
+  - folium
+  - geopandas
+  - shapely
+  - rasterio
+  - cartopy
+  - pyproj
+  - fiona
+  - geopy
+  - rasterstats
 
-  # 유틸 및 Jupyter 환경
-  - jupyterlab
-  - notebook
-  - ipykernel
-  - nb_conda_kernels
+
+
+  # 유틸
   - tqdm
   - openpyxl
   - pydantic
   - hydra-core
   - mlflow
   - optuna
+  - joblib
+  - requests
+  - beautifulsoup4
+  - lxml
+
+  # Jupyter 환경
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - nb_conda_kernels
+  - ipywidgets
+  - widgetsnbextension
+  - jupyterlab-git
