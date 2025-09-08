@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+ML_lecture/00_data_maker
+ML_lecture/01_python_for_ML/day01_test.ipynb
+ML_lecture/01_python_for_ML/titanic_train.csv
+ML_lecture/01_python_for_ML/Untitled.ipynb
+ML_lecture/01_python_for_ML/Untitled1.ipynb
+ML_lecture/01_python_for_ML/매출데이터.xlsx.csv
